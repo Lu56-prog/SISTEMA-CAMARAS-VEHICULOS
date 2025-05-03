@@ -1,0 +1,24 @@
+/* Fuentes de texto */
+@font-face {
+    font-family: Rubik;
+    src: url(Rubik-Regular.ttf) format(truetype);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Rubik;
+    font-weight: 400;
+    src: url(Rubik-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(Rubik-Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(Rubik-Black.ttf) format(truetype);
+    font-weight: 900;
+}
