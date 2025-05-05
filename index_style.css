@@ -50,3 +50,9 @@ body{
     background-color: #cee9c8
 }
 
+@media (max-width: 1028px){
+    .cajonRegistro{
+        width: 95%;
+        margin-left: 10px;
+    }
+}
