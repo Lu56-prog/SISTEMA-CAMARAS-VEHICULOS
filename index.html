@@ -17,51 +17,53 @@
   <!--NAVBAR-->
   <div id="nav-principal"></div>
 
-  <section class="container">
-    <div class="row mt-5">
-        <h1>Registro de Placa</h1>
-    </div>
-
-    <div class="row mt-3">
-        <div class="cajonRegistro col-md-7 me-5 p-4 rounded-3">
-            <form action="registroPlaca.html" class="row g-3">
-                <div class="col-md-6">
-                  <label class="form-label">Nombre Completo</label>
-                  <input type="text" class="form-control" id="nombreCompleto">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Número Identificación</label>
-                  <div class="input-group select-document">
-                    <select class="form-select" id="tipoIdentificacion">
-                        <option class="opcion" selected disabled value="">ID</option>
-                        <option class="opcion" value="cedula">C.C</option>
-                        <option class="opcion" value="tarjeta-identidad">T.I</option>
-                        <option class="opcion" value="cedula-extranjero">C.E</option>
-                    </select>
-                    <input type="number" class="form-control" id="numeroIdentificacion">
-                </div>
-                </div>
-                <div class="col-md-6">
-                  <label  class="form-label">Correo Electronico</label>
-                  <input type="email" class="form-control" id="correoElectronico">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Número de Contacto</label>
-                  <input type="tel" class="form-control" id="numeroContacto">
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    <button type="Enviar" class="btn btnRegistro">Enviar</button>
+  <main>
+    <section class="container">
+      <div class="row mt-5">
+          <h1>Registro de Placa</h1>
+      </div>
+  
+      <div class="row mt-3">
+          <div class="cajonRegistro col-md-7 me-5 p-4 rounded-3">
+              <form action="registroPlaca.html" class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="nombreCompleto">
                   </div>
-              </form>
-        </div>
-
-        <div class="cajonRegistro col-md-4 p-4 rounded-3">
-            <h2 class="subtitle2Registro">Información del Estudiante</h2>
-            <p class="descripcionRegistro">Por favor, completa la siguiente información. Estos datos permitirán vincular tu identidad con el vehículo que estás registrando, asegurando un acceso seguro y controlado dentro del campus institucional.</p>
-        </div>
-    </div>
-  </section>
+                  <div class="col-md-6">
+                    <label class="form-label">Número Identificación</label>
+                    <div class="input-group select-document">
+                      <select class="form-select" id="tipoIdentificacion">
+                          <option class="opcion" selected disabled value="">ID</option>
+                          <option class="opcion" value="cedula">C.C</option>
+                          <option class="opcion" value="tarjeta-identidad">T.I</option>
+                          <option class="opcion" value="cedula-extranjero">C.E</option>
+                      </select>
+                      <input type="number" class="form-control" id="numeroIdentificacion">
+                  </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label  class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="correoElectronico">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Número de Contacto</label>
+                    <input type="tel" class="form-control" id="numeroContacto">
+                  </div>
+  
+                  <div class="d-flex justify-content-center">
+                      <button type="submit" class="btn btnRegistro">Siguiente</button>
+                    </div>
+                </form>
+          </div>
+  
+          <div class="cajonRegistro col-md-4 p-4 rounded-3">
+              <h2 class="subtitle2Registro">Información del Estudiante</h2>
+              <p class="descripcionRegistro">Por favor, completa la siguiente información. Estos datos permitirán vincular tu identidad con el vehículo que estás registrando, asegurando un acceso seguro y controlado dentro del campus institucional.</p>
+          </div>
+      </div>
+    </section>
+  </main>
 
   <div id="footer"></div>
   <script src="navbar_js.js"> </script>

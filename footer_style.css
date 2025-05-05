@@ -1,8 +1,9 @@
 .footer{
+    background-color: #a9c7a1;
+    text-align: center;
     font-family: Rubik;
     font-weight: 100;
-    position: absolute;
-    bottom: 0;
-    background-color: #a9c7a1 ;
-    text-align: center;
+    color: #535353;
+    margin-top: 2rem;
+    padding: 1rem;
 }

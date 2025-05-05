@@ -6,6 +6,18 @@
     background-color: #a9c7a1;
 }
 
+.textoNav{
+    color: #fff;
+    font-family: Rubik;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.textoNav:hover {
+    transform: scale(1.03); 
+    color: #006a2f; 
+}
+
 .tdeaLogo {
     padding: 0;
 }

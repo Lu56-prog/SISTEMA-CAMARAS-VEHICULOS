@@ -17,46 +17,48 @@
   <!--NAVBAR-->
   <div id="nav-principal"></div>
 
-  <section class="container">
-    <div class="row mt-5">
-        <h1>Registro de Placa</h1>
-    </div>
-
-    <div class="row mt-3">
-        <div class="cajonRegistro col-md-7 me-5 p-4 rounded-3">
-            <form action="registroPlaca.html" class="row g-3">
-                <div class="col-md-6">
-                  <label class="form-label">Placa de Vehículo</label>
-                  <input type="text" class="form-control" id="placaVehiculo">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Tipo de Vehículo</label>
-                  <select class="form-select" id="tipoVehiculo">
-                    <option class="opcion" selected disabled value="">Elegir</option>
-                    <option class="opcion" value="carroVehiculo">Carro</option>
-                    <option class="opcion" value="motoVehiculo">Moto</option>
-                </select>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label class="form-label">Adjunta Licencia del Vehiculo</label>
-                        <input type="file" class="form-control" aria-label="file example">
-                      </div>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    <button type="Enviar" class="btn btnRegistro">Enviar</button>
-                </div>
-              </form>
-        </div>
-
-        <div class="cajonRegistro col-md-4 p-4 rounded-3">
-            <h2 class="subtitle2Registro">Información del Vehiculo</h2>
-            <p class="descripcionRegistro">Proporciona los datos del vehículo que deseas registrar. Esta información permitirá identificar y autorizar tu acceso al campus, contribuyendo a un control vehicular eficiente dentro de la institución.</p>
-        </div>
-    </div>
-  </section>
+  <main>
+    <section class="container">
+      <div class="row mt-5">
+          <h1>Registro de Placa</h1>
+      </div>
+  
+      <div class="row mt-3">
+          <div class="cajonRegistro col-md-7 me-5 p-4 rounded-3">
+              <form action="inicioUsuario.html" class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label">Placa de Vehículo</label>
+                    <input type="text" class="form-control" id="placaVehiculo">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Tipo de Vehículo</label>
+                    <select class="form-select" id="tipoVehiculo">
+                      <option class="opcion" selected disabled value="">Elegir</option>
+                      <option class="opcion" value="carroVehiculo">Carro</option>
+                      <option class="opcion" value="motoVehiculo">Moto</option>
+                  </select>
+                  </div>
+  
+                  <div class="col-md-12">
+                      <div class="mb-3">
+                          <label class="form-label">Adjunta Licencia del Vehiculo</label>
+                          <input type="file" class="form-control" aria-label="file example">
+                        </div>
+                  </div>
+  
+                  <div class="d-flex justify-content-center">
+                      <button type="submit" class="btn btnRegistro">Registrar mi Vehiculo</button>
+                  </div>
+                </form>
+          </div>
+  
+          <div class="cajonRegistro col-md-4 p-4 rounded-3">
+              <h2 class="subtitle2Registro">Información del Vehiculo</h2>
+              <p class="descripcionRegistro">Proporciona los datos del vehículo que deseas registrar. Esta información permitirá identificar y autorizar tu acceso al campus, contribuyendo a un control vehicular eficiente dentro de la institución.</p>
+          </div>
+      </div>
+    </section>
+  </main>
 
   <div id="footer"></div>
   <script src="navbar_js.js"> </script>
